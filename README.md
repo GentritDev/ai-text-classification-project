@@ -14,10 +14,17 @@ The project includes everything from data preprocessing to a working web API whe
 **20 Newsgroups Dataset**
 - **Source**: Built-in scikit-learn dataset
 - **What I used**: 5 different categories (I started with these to keep things manageable)
-
+- **Categories**: 
+  - `alt.atheism` - Discussions about atheism and secular topics
+  - `comp.graphics` - Computer graphics and technology topics  
+  - `sci.med` - Medical and health discussions
+  - `soc.religion.christian` - Religious discussions and community posts
+  - `rec.sport.hockey` - Hockey and sports content
 - **Size**: 4,758 documents total
 - **Distribution**: Balanced across categories
 - **Preprocessing**: Text cleaning, tokenization, TF-IDF vectorization
+
+**Note**: These categories are from the original 20 Newsgroups dataset and were chosen for technical demonstration purposes only. The project focuses on text classification methodology rather than any specific religious or philosophical viewpoints.
 
 ## How It Works
 
@@ -230,11 +237,14 @@ Response:
 
 ## What I Learned
 
+### Important Note About Dataset
+The categories used in this project are from the standard 20 Newsgroups academic dataset, which was created for machine learning research purposes. The inclusion of religious and secular discussion categories is purely for demonstrating text classification techniques and does not reflect any personal beliefs or preferences. The goal was to show how different types of content can be automatically categorized using machine learning.
+
 ### Interesting Findings
 1. **Naive Bayes worked best** - sometimes simpler is better for text classification
 2. **TF-IDF made a big difference** - much better than just counting words
-3. **Some categories are easier** - hockey posts are easy to spot, religious discussions can overlap
-4. **Keywords matter most** - words like "hockey", "medical", "graphics" are strong indicators
+3. **Some categories are easier** - sports content has very distinct vocabulary, while religious/philosophical discussions can have overlapping terms
+4. **Keywords matter most** - topic-specific terms like "hockey", "medical", "graphics" are strong classification indicators
 
 ### Performance Analysis
 - **Training Time**: < 2 minutes for complete pipeline
