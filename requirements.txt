@@ -1,0 +1,27 @@
+# Core ML and Data Science
+scikit-learn
+pandas
+numpy
+
+# Natural Language Processing
+nltk
+
+# Visualization
+matplotlib
+seaborn
+wordcloud
+
+# Web Framework
+Flask
+Flask-CORS
+
+# Jupyter for notebooks
+jupyter
+ipykernel
+
+# Utilities
+requests
+tqdm
+
+# Model persistence
+joblib
