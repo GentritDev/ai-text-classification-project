@@ -14,12 +14,7 @@ The project includes everything from data preprocessing to a working web API whe
 **20 Newsgroups Dataset**
 - **Source**: Built-in scikit-learn dataset
 - **What I used**: 5 different categories (I started with these to keep things manageable)
-- **Categories**: 
-  - `alt.atheism` - Atheism discussions
-  - `comp.graphics` - Computer graphics topics  
-  - `sci.med` - Medical and health discussions
-  - `soc.religion.christian` - Christian community posts
-  - `rec.sport.hockey` - Hockey and sports content
+
 - **Size**: 4,758 documents total
 - **Distribution**: Balanced across categories
 - **Preprocessing**: Text cleaning, tokenization, TF-IDF vectorization
